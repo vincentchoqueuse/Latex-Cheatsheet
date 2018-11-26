@@ -6,7 +6,7 @@
 ### Side by Side figures
 
 ```
-\uespackage{caption}
+\usepackage{caption}
 \usepackage{subcaption}
 
 ...
