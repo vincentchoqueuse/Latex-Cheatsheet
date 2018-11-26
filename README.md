@@ -12,12 +12,12 @@
 ...
 \begin{figure}
 \centering
-\begin{subfigure}{.5\linewidth}
+\begin{subfigure}{.5\textwidth}
 \centering
 ...
 \caption{XXX}
 \end{subfigure}
-\begin{subfigure}{.5\linewidth}
+\begin{subfigure}{.5\textwidth}
 \centering
 ...
 \caption{XXX}
