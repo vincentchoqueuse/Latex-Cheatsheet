@@ -24,3 +24,13 @@
 \end{subfigure}
 \end{figure}
 ```
+
+## Code
+
+```
+\usepackage{listings}
+...
+\begin{lstlisting}[language=Python]
+...
+\end{lstlisting}
+```
