@@ -34,3 +34,9 @@
 ...
 \end{lstlisting}
 ```
+
+### Only one part of a source file
+
+```
+\lstinputlisting[firstline=300,lastline=500]{file.c}
+```
