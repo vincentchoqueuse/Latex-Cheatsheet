@@ -32,7 +32,7 @@
 \begin{column}{0.5\textwidth}
    Coucou1
 \end{column}
-\begin{column}{0.5\textwidth}  %%<--- here
+\begin{column}{0.5\textwidth} 
     Coucou2
 \end{column}
 \end{columns}
