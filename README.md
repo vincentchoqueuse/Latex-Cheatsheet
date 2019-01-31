@@ -25,6 +25,19 @@
 \end{figure}
 ```
 
+## Columns
+
+```
+\begin{columns}
+\begin{column}{0.5\textwidth}
+   Coucou1
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+    Coucou2
+\end{column}
+\end{columns}
+```
+
 ## Code
 
 ```
