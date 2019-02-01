@@ -1,5 +1,27 @@
 # Latex-Cheatsheet
 
+## Bootstrap document
+
+```
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{subcaption}
+\usepackage{fullpage}
+\usepackage{graphicx}
+
+\title{Entrainement d'un Moteur à Courant Continu}
+\author{Vincent Choqueuse}
+\date{}
+
+\begin{document}
+\maketitle
+
+
+\end{document}
+```
+
 
 ## Figures
 
