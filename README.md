@@ -22,6 +22,10 @@
 \end{document}
 ```
 
+## Theoreme
+```
+\newtheorem{<name>}{<heading>}[<counter>]
+```
 
 ## Figures
 
