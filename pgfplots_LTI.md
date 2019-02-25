@@ -2,7 +2,9 @@
 
 ## Block Diagram
 
+
 ```
+\usepackage{schemabloc}
 \begin{tikzpicture}
 	\sbEntree{E}
 	\sbBloc[3]{H}{SLIT}{E}
