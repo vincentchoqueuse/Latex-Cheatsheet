@@ -14,6 +14,24 @@
 \end{tikzpicture}
 ```
 
+## Closed Loop Block Diagram
+
+```
+\begin{tikzpicture}
+\sbEntree{E}   
+\sbComp{comp}{E}   
+\sbRelier[$E(p)$]{E}{comp}
+\sbBloc{sys}{$F(p)$}{comp}
+\sbRelier{comp}{sys}
+\sbSortie[4]{S}{sys}   
+\sbRelier[$S(p)$]{sys}{S}
+\sbDecaleNoeudy[4]{sys}{U}
+\sbBlocr[-1.5]{cap}{$\beta$}{U}      
+\sbRelieryx{sys-S}{cap}
+\sbRelierxy{cap}{comp}
+\end{tikzpicture}
+```
+
 ## Poles / Zeros Diagram
 
 ```
