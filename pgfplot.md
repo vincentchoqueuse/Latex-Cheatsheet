@@ -3,6 +3,10 @@
 ## General plot
 
 ```
+\usepackage{pgfplots}
+
+...
+
 \begin{tikzpicture}
     \begin{axis}[xlabel near ticks,ylabel near ticks,grid=both]
     \addplot+[thick] table[mark=none,x index=0, y index=1, col sep=comma] {./csv/3tfclb_2_RI.csv}; 
