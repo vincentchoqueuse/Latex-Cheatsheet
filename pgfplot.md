@@ -1,6 +1,8 @@
 # PGFPLOT
 
-## General plot
+## General Commands
+
+### General plot
 
 ```
 \usepackage{pgfplots}
@@ -14,13 +16,19 @@
 \end{tikzpicture}
 ```
 
-## Import csv file
+### Draw sine wave
+
+```
+ \addplot+[no marks, samples=100,,domain=0:1] {sin(deg(x))};
+```
+
+### Import csv file
 
 ```
 \addplot table[mark=none,x index=0,y index!1, col sep=comma]{file.csv};
 ```
 
-## Particular xaxis point
+### Particular xaxis point
 
 ```
 \begin{axis}[...,xtick={3},yticklabels={label}...]
@@ -28,8 +36,22 @@
 \end{axis}
 ```
 
-## Draw sine wave
+## Specific Command
+
+### Define Cycle List
 
 ```
- \addplot+[no marks, samples=100,,domain=0:1] {sin(deg(x))};
+\pgfplotscreateplotcyclelist{mycolorlist}{
+        {thick,red,mark=o,dashed,mark options=solid},
+        {thick,black,mark=none},
+        {thick,blue,mark=+,brown},
+        {thick,black,mark=none,dashed},
+        {thick,blue,mark=star},
+      }
+      
+\begin{tikzpicture}
+     \begin{axis}[cycle list name=mycolorlist]
+     
+     \end{axis}
+\end{tikzpicture}
 ```
